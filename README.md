@@ -64,24 +64,3 @@ npm run test:headed
 # Open HTML report
 npm run test:report
 ```
-
----
-
-## 🔗 GitHub Integration
-
-This repo includes a GitHub Actions workflow that:
-- Triggers on **push** and **pull request** to `main`, `master`, `develop`
-- Runs tests on **Chromium** and **Firefox**
-- Uploads the **HTML report** and **JUnit XML** as artifacts
-
-### Steps to push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "feat: initial Playwright POM test suite"
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-The CI pipeline will run automatically on every push. ✅
