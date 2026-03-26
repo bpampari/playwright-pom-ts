@@ -1,0 +1,16 @@
+{
+  "name": "playwright-pom-ts",
+  "version": "1.0.0",
+  "description": "Playwright test suite with Page Object Model in TypeScript",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:ci": "npx playwright test --reporter=github"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
