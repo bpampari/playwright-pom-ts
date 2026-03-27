@@ -12,7 +12,7 @@ export class SecureAreaPage extends BasePage {
 
   constructor(page: Page) {
     super(page);
-    this.heading      = page.getByRole('heading', { name: 'Secure Area' });
+    this.heading      = page.getByRole('heading', { name: 'Secure Area', exact: true });
     this.logoutButton = page.getByRole('link', { name: 'Logout' });
     this.flashMessage = page.locator('#flash');
   }
