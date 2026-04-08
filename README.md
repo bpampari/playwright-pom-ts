@@ -64,3 +64,15 @@ npm run test:headed
 # Open HTML report
 npm run test:report
 ```
+# Selenium Java Conversion
+
+A parallel Selenium + Java + Maven version of this suite now exists in [selenium-java-pom/README.md](/D:/Ai%20Learning/playwright-pom-ts/selenium-java-pom/README.md).
+
+It preserves the same page-object split and test scenarios for:
+
+- Valid login
+- Invalid login
+- Dropdown option selection
+- Dropdown option switching
+
+There is also a reusable conversion prompt at [.agents/playwright-ts-to-selenium-java.md](/D:/Ai%20Learning/playwright-pom-ts/.agents/playwright-ts-to-selenium-java.md) for repeating the same migration pattern on similar Playwright TypeScript projects.
